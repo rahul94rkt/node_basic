@@ -3,10 +3,6 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-var movies = require('./Movies');
-var module2 = require('./ExportModule2');
-module2.interstaller();
-module2.martian();
-movies.martian();
-
-
+var moives =require('./movie');
+moives.favmovie = "The Notebook";
+console.log("Rahul's Fav Movie Is : "+moives.favmovie);
